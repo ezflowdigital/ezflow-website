@@ -224,3 +224,40 @@ footer{border-top:1px solid var(--line);padding:38px 0;background:#02050b}
   .logo-link img{width:150px}
   .product-image{min-height:315px}
 }
+/* Fix product titles being hidden on mobile */
+.product-image {
+  aspect-ratio: 1 / 1;
+  min-height: 0;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.product-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-content {
+  position: relative;
+  z-index: 2;
+  padding-top: 26px;
+  background: var(--panel);
+}
+
+.product-content h3 {
+  margin-top: 0;
+  position: relative;
+  z-index: 3;
+}
+
+@media (max-width: 560px) {
+  .product-image {
+    min-height: 0;
+    aspect-ratio: 1 / 1;
+  }
+
+  .product-content {
+    padding: 28px 24px 26px;
+  }
