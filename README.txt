@@ -1,46 +1,30 @@
-EZFLOW DIGITAL SOLUTIONS — VERSION 3
+EZFLOW DIGITAL SOLUTIONS — VERSION 4
 
-WHAT CHANGED
-- More polished product cards with consistent framing, sizing and presentation.
-- Product category badges.
-- Stronger EzFlow branding and tagline treatment.
-- Added frequently asked questions.
-- Improved hover effects and spacing.
-- Includes the supplied logo, real contact details and WhatsApp links.
+MAIN CHANGES
+- Removed the tagline from directly beneath the header logo.
+- Moved “digital solutions that flow.” into the hero section.
+- Kept “flow.” in EzFlow signature blue.
+- Rebuilt the card, stand and tile images into matching square product panels.
+- Standardised product scale, background, lighting and presentation.
+- Retained all WhatsApp, email and domain details.
 
-PREVIEW
-1. Extract the ZIP.
-2. Double-click index.html.
+UPLOAD TO GITHUB
+1. Extract this ZIP.
+2. Open the ezflow-website repository.
+3. Click Add file > Upload files.
+4. Upload index.html, style.css, script.js, README.txt and the full assets folder.
+5. Let GitHub replace the existing files.
+6. Commit with: Update website to Version 4
+7. Cloudflare Pages should deploy automatically.
 
-UPLOAD THIS VERSION TO GITHUB
-1. Open your ezflow-website repository.
-2. Click Add file > Upload files.
-3. Open the extracted Version 3 folder.
-4. Select index.html, style.css, script.js, README.txt and the assets folder.
-5. Drag them onto GitHub.
-6. GitHub will show that existing files are being replaced.
-7. Enter commit message: Update website to Version 3
-8. Click Commit changes.
+CHECKING THE UPDATE
+- In Cloudflare Pages, open Deployments.
+- Wait for a green tick beside the Version 4 commit.
+- Open the pages.dev address first.
+- Then press Ctrl + Shift + R on your custom domain.
 
-CLOUDFLARE
-Because your Cloudflare Pages project is linked to GitHub, it should detect the new commit and publish Version 3 automatically, usually within one or two minutes.
-
-HOW TO FINE-TUNE
-TEXT:
-Open index.html in Visual Studio Code. Use Ctrl+F to find the text, edit it and save.
-
-BRAND COLOURS:
-Open style.css and edit:
---blue: #276fe8;
---blue2: #42a0ff;
-
-PRODUCT IMAGES:
-Replace files inside assets while keeping the same filenames:
-- card-black.jpg
-- stand-black.jpg
-- tile-black.jpg
-
-For the best uniform result, use square images, the product centred at the same scale, and a clean neutral background.
-
-ROLLING BACK:
-GitHub keeps every commit. Open the repository's commit history to restore an earlier version if necessary.
+EDITING LATER
+- Text: index.html
+- Colours/layout: style.css
+- Behaviour: script.js
+- Product images: assets/product-card-v4.jpg, product-stand-v4.jpg, product-tile-v4.jpg
