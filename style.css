@@ -153,3 +153,33 @@ footer{border-top:1px solid var(--line);padding:38px 0;background:#02050b}
   .button-row .button,.contact-links .button{width:100%}
   .trust-row{gap:12px}
 }
+
+
+/* Version 3 refinements */
+.kicker em{color:var(--blue2);font-style:italic;text-transform:none}
+.product-card{position:relative;transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease}
+.product-card:hover{transform:translateY(-6px);border-color:rgba(66,160,255,.45);box-shadow:0 28px 70px rgba(0,0,0,.35)}
+.product-badge{
+  position:absolute;z-index:4;top:14px;left:14px;
+  padding:6px 10px;border-radius:999px;
+  background:rgba(39,111,232,.92);color:#fff;
+  font-size:.72rem;font-weight:800;letter-spacing:.04em;
+  box-shadow:0 8px 20px rgba(0,0,0,.3)
+}
+.product-image{min-height:360px}
+.product-image img{
+  max-width:92%;max-height:92%;
+  background:#eef1f5;
+  padding:8px;
+  box-shadow:0 22px 50px rgba(0,0,0,.35);
+}
+.faq-grid{max-width:900px;margin:auto;display:grid;gap:13px}
+.faq-grid details{
+  border:1px solid var(--line);border-radius:14px;
+  background:rgba(255,255,255,.025);padding:18px 20px
+}
+.faq-grid summary{cursor:pointer;font-weight:800}
+.faq-grid p{color:var(--muted);margin-bottom:0}
+@media(max-width:560px){
+  .product-image{min-height:300px}
+}

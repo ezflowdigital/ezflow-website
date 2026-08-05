@@ -1,45 +1,46 @@
-EZFLOW DIGITAL SOLUTIONS — VERSION 2
+EZFLOW DIGITAL SOLUTIONS — VERSION 3
 
-QUICK PREVIEW
-1. Unzip this folder.
+WHAT CHANGED
+- More polished product cards with consistent framing, sizing and presentation.
+- Product category badges.
+- Stronger EzFlow branding and tagline treatment.
+- Added frequently asked questions.
+- Improved hover effects and spacing.
+- Includes the supplied logo, real contact details and WhatsApp links.
+
+PREVIEW
+1. Extract the ZIP.
 2. Double-click index.html.
-3. The site opens in Chrome.
 
-UPLOAD TO GITHUB
-1. Create/open your ezflow-website repository.
-2. Choose Add file > Upload files.
-3. Upload index.html, style.css, script.js and the complete assets folder.
-4. Commit the changes.
+UPLOAD THIS VERSION TO GITHUB
+1. Open your ezflow-website repository.
+2. Click Add file > Upload files.
+3. Open the extracted Version 3 folder.
+4. Select index.html, style.css, script.js, README.txt and the assets folder.
+5. Drag them onto GitHub.
+6. GitHub will show that existing files are being replaced.
+7. Enter commit message: Update website to Version 3
+8. Click Commit changes.
 
-HOW TO FINE-TUNE THE SITE
-CONTENT:
-- Open index.html with Notepad, Visual Studio Code or another text editor.
-- Search for the wording you want to change.
-- Save, then refresh index.html in Chrome.
+CLOUDFLARE
+Because your Cloudflare Pages project is linked to GitHub, it should detect the new commit and publish Version 3 automatically, usually within one or two minutes.
 
-COLOURS:
-- Open style.css.
-- At the top, edit --blue and --blue2.
-- Your tagline's word “flow.” uses --blue2.
+HOW TO FINE-TUNE
+TEXT:
+Open index.html in Visual Studio Code. Use Ctrl+F to find the text, edit it and save.
+
+BRAND COLOURS:
+Open style.css and edit:
+--blue: #276fe8;
+--blue2: #42a0ff;
 
 PRODUCT IMAGES:
-- Replace files inside the assets folder.
-- Keep the same filenames to avoid editing the HTML.
-- Best results: square images, at least 1200 x 1200 pixels, product centred, plain background.
+Replace files inside assets while keeping the same filenames:
+- card-black.jpg
+- stand-black.jpg
+- tile-black.jpg
 
-WHATSAPP:
-- The website uses 447540451887 in every WhatsApp link.
-- Edit that number in index.html if it ever changes.
+For the best uniform result, use square images, the product centred at the same scale, and a clean neutral background.
 
-ADDING PRICES:
-- Search index.html for “Get a quote”.
-- Add a line such as <p class="price">From £XX</p> above each quote link.
-
-PUBLISHING CHANGES:
-- Edit the files on your computer.
-- Upload the changed files to GitHub and commit.
-- Cloudflare Pages will publish the update automatically.
-
-IMPORTANT:
-- Do not upload only the ZIP to GitHub. Upload the files and assets folder inside it.
-- Supplier image screenshots have been presented inside consistent website frames, but original professional product photography will improve the final result.
+ROLLING BACK:
+GitHub keeps every commit. Open the repository's commit history to restore an earlier version if necessary.
